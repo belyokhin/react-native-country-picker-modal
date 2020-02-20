@@ -60,7 +60,9 @@ export const CountryCodeList = [
   'DK',
   'DJ',
   'DM',
-  'DO',
+  'DO1',
+  'DO2',
+  'DO3',
   'EC',
   'EG',
   'SV',
@@ -174,7 +176,8 @@ export const CountryCodeList = [
   'PN',
   'PL',
   'PT',
-  'PR',
+  'PR1',
+  'PR2',
   'QA',
   'CG',
   'RO',
@@ -182,7 +185,8 @@ export const CountryCodeList = [
   'RW',
   'RE',
   'BL',
-  'SH',
+  'SH1',
+  'SH2',
   'KN',
   'LC',
   'MF',
@@ -238,7 +242,8 @@ export const CountryCodeList = [
   'UY',
   'UZ',
   'VU',
-  'VA',
+  'VA1',
+  'VA2',
   'VE',
   'VN',
   'WF',
@@ -249,8 +254,7 @@ export const CountryCodeList = [
   'KI',
   'HK',
   'AX'
-] as const
-
+];
 export type CountryCode = typeof CountryCodeList[number]
 
 export type CallingCode = string
