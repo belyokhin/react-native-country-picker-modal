@@ -13,6 +13,7 @@ interface CountryPickerProps {
     filterProps?: CountryFilterProps;
     flatListProps?: FlatListProps<Country>;
     withEmoji?: boolean;
+    withCountryCodeButton?: boolean;
     withCountryNameButton?: boolean;
     withCurrencyButton?: boolean;
     withCallingCodeButton?: boolean;

@@ -3,6 +3,7 @@ import { StyleProp, ViewStyle } from 'react-native';
 import { CountryCode } from './types';
 export interface FlagButtonProps {
     withEmoji?: boolean;
+    withCountryCodeButton?: boolean;
     withCountryNameButton?: boolean;
     withCurrencyButton?: boolean;
     withCallingCodeButton?: boolean;
@@ -13,9 +14,10 @@ export interface FlagButtonProps {
     onOpen?(): void;
 }
 export declare const FlagButton: {
-    ({ withEmoji, withCountryNameButton, withCallingCodeButton, withCurrencyButton, withFlagButton, countryCode, containerButtonStyle, onOpen, placeholder, }: FlagButtonProps): JSX.Element;
+    ({ withEmoji, withCountryCodeButton, withCountryNameButton, withCallingCodeButton, withCurrencyButton, withFlagButton, countryCode, containerButtonStyle, onOpen, placeholder, }: FlagButtonProps): JSX.Element;
     defaultProps: {
         withEmoji: boolean;
+        withCountryCodeButton: false,
         withCountryNameButton: boolean;
         withCallingCodeButton: boolean;
         withCurrencyButton: boolean;
